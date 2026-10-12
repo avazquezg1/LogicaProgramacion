@@ -13,18 +13,21 @@ public class ejercicioarreglo {
         }
             int mayor = numeros.get(0);
             int menor = numeros.get(0);
-            
+            int posmayor = 0;
+            int posmenor = 0;
            
             for(int i=1; i<numeros.size(); i++){
                 int actual = numeros.get(i);
                 if(actual > mayor){
                     mayor = actual;
+                    posmayor = i;
                 }
                 if(actual< menor){
                     menor = actual;
+                    posmenor = i;
                 }
         }
-        System.out.println("El número mayor es " + mayor);
-        System.out.println("El número menor es " + menor);
+        System.out.println("El número mayor es " + mayor + " y está en la posición " + posmayor);
+        System.out.println("El número menor es " + menor + " y está en la posición " + posmenor);
     }
 }
