@@ -21,7 +21,5 @@ public class ejerciciopaletas {
         System.out.println("Total de paletas que se vendieron: " + paletas_vendidas);
         System.out.println("Dinero recaudado: " + dinero_ganado);
         consola.close();
-        
-    
     }
 }
