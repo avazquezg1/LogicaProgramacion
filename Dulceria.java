@@ -101,6 +101,7 @@ public static void main(String[] args) {
                 totalIngresos += ingreso;
             }
             promedioVentaPorCliente = (double) totalIngresos / totalClientes;
+            System.out.println("El total de ingresos fue de: $"+ totalIngresos);
         }
         System.out.println("Promedio de venta por cliente: $" + promedioVentaPorCliente);
         }
